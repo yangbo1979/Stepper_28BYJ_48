@@ -23,8 +23,11 @@ void loop() {
 
         }
 
-        if ( digitalRead(switch_2_pin) == LOW ) {
+       else if ( digitalRead(switch_2_pin) == LOW ) {
                 stepper.step(1);
+        }
+      else{
+          stepper.stop();
         }
   
 }
