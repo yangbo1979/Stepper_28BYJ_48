@@ -3,8 +3,6 @@
 
 
 Stepper_28BYJ_48::Stepper_28BYJ_48(int _pin_1n1, int _pin_1n2, int _pin_1n3, int _pin_1n4) {
-  bStop = true;
-  
   pin_1n1 = _pin_1n1;
   pin_1n2 = _pin_1n2;
   pin_1n3 = _pin_1n3;
